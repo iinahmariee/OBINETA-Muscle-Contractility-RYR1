@@ -1,7 +1,7 @@
 # Muscle Contractility Lab — RYR1
 
 **Name:** Obiñeta, Inah Marie  
-**Date Completed:** October 27, 2026  
+**Date Completed:** October 28, 2026  
 **Course:** Cell and Molecular Biology - B
 
 ## Assignment Details
@@ -139,5 +139,7 @@ inally the computer predictions all point the way. SIFT labels the change as dam
 
 ## References Link:
 ClinVar: https://www.ncbi.nlm.nih.gov/clinvar/variation/12977/ 
+
 NCBI Gene: https://www.ncbi.nlm.nih.gov/gene/6261
+
 NCBI Protein: https://www.ncbi.nlm.nih.gov/protein/NP_000531.2
