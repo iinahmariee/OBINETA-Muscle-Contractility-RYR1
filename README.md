@@ -88,8 +88,8 @@ RYR1 encodes the skeletal muscle ryanodine receptor 1, a homotetrameric calcium�
 **2. Explain what is known about the assigned variant, separating observed experimental evidence from computational prediction and clinical association.**
 
 *Variant Evidence — p.Thr2206Met*
-- **Clinical:** Classified Pathogenic by ClinGen expert panel; linked to Malignant Hyperthermia Susceptibility and central core disease (**Figure 3**)
-- **Predictions:** SIFT/PolyPhen‑2 both call it damaging; sits in confirmed MH mutational hotspot (2163–2458) (**Figure 4**)
+- **Clinical:** Classified Pathogenic by ClinGen expert panel; linked to Malignant Hyperthermia Susceptibility and central core disease 
+- **Predictions:** SIFT/PolyPhen‑2 both call it damaging; sits in confirmed MH mutational hotspot (2163–2458)
 - **Uncertain:** Direct functional tests specific to T2206M are limited; structural change not yet solved experimentally
 
 **3. Write a short causal chain: gene → protein → molecular function → assigned variant → possible effect on contraction, relaxation, or muscle integrity.**  
@@ -111,11 +111,11 @@ RYR1 encodes the ryanodine receptor 1, a large homotetrameric calcium‑release 
 - Length: 5,038 amino acids
 
 **3. What did the amino‑acid composition chart show? What can it NOT tell you?**
-- **Showed:** Leucine (L, 558) is most abundant, followed by Glutamic acid (E, 476) and Alanine (A, 384); high content of charged/polar residues consistent with a large cytoplasmic‑facing ion channel structure (**Figure 2**, **Table 1**).
+- **Showed:** Leucine (L, 558) is most abundant, followed by Glutamic acid (E, 476) and Alanine (A, 384); high content of charged/polar residues consistent with a large cytoplasmic‑facing ion channel structure.
 - **Cannot tell:** Folding, domain arrangement, gating behavior, or variant effect — composition alone does not predict molecular function or disease impact.
 
 **4. What is your fixed ClinVar variant, and what is its current classification and evidence strength?**
-- **Variant:** NM_000540.3(RYR1):c.6617C>T p.(Thr2206Met) — ClinVar ID 12977 (**Figure 3**)
+- **Variant:** NM_000540.3(RYR1):c.6617C>T p.(Thr2206Met) — ClinVar ID 12977 
 - **Classification:** Pathogenic
 - **Evidence strength:** Reviewed by ClinGen expert panel (March 2022); located in confirmed MH mutational hotspot; consistent clinical segregation; in silico predictors (SIFT=Damaging, PolyPhen‑2=Probably Damaging)
 
