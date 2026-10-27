@@ -82,30 +82,49 @@ variant_protein = "p.Thr2206Met"
 
 **Figure 4.** Variant position plot showing p.Thr2206Met at residue 2206 on the 5,038‑amino‑acid RYR1 reference protein.
 
+## Step 7 — Explain the Molecular Mechanism
+
+**1. Describe what your normal protein does in skeletal, cardiac, or smooth muscle (as appropriate). Identify whether it drives the actin–myosin cycle, regulates calcium, or maintains muscle structure.**  
+RYR1 encodes the skeletal muscle ryanodine receptor 1, a homotetrameric calcium‑release channel embedded in the sarcoplasmic reticulum membrane. Its primary role is to regulate calcium signaling during excitation–contraction coupling — it does not directly form the contractile machinery or maintain structural integrity.
+
+**2. Explain what is known about the assigned variant, separating observed experimental evidence from computational prediction and clinical association.**
+
+*Variant Evidence — p.Thr2206Met*
+- **Clinical:** Classified Pathogenic by ClinGen expert panel; linked to Malignant Hyperthermia Susceptibility and central core disease (**Figure 3**)
+- **Predictions:** SIFT/PolyPhen‑2 both call it damaging; sits in confirmed MH mutational hotspot (2163–2458) (**Figure 4**)
+- **Uncertain:** Direct functional tests specific to T2206M are limited; structural change not yet solved experimentally
+
+**3. Write a short causal chain: gene → protein → molecular function → assigned variant → possible effect on contraction, relaxation, or muscle integrity.**  
+RYR1 → RyR1 Ca²⁺ channel → E–C coupling → T2206M (Thr→Met at 2206) → closed state destabilized → resting Ca²⁺ leak → anesthetic trigger → uncontrolled Ca²⁺ release → Malignant Hyperthermia
+
+**4. Propose one experiment that could test your interpretation, such as ATPase measurement, calcium imaging, binding assay, microscopy, or force measurement.**  
+Express wild‑type and T2206M RYR1 in cells with no endogenous RyR. Use calcium imaging to measure resting Ca²⁺ levels and responses to caffeine/halothane; compare channel activity via patch‑clamp.  
+**Expected:** T2206M shows higher baseline Ca²⁺ and exaggerated release, confirming leaky gating causes the phenotype.
+
 ---
 
-## I. Questions & Answers
+## Questions to Answer in README.md
 
 **1. What does your assigned gene encode, and how does this protein contribute to muscle function?**  
-RYR1 encodes the ryanodine receptor 1, a large homotetrameric calcium‑release channel in the sarcoplasmic reticulum membrane of skeletal muscle. During excitation–contraction coupling: depolarization triggers RyR1 to open, releasing stored Ca²⁺ into the cytoplasm; Ca²⁺ binds troponin → actin–myosin cycling → contraction. Channel closure allows Ca²⁺ reuptake and relaxation. RyR1 regulates calcium signaling — it does not form contractile filaments directly.
+RYR1 encodes the ryanodine receptor 1, a large homotetrameric calcium‑release channel located in the sarcoplasmic reticulum membrane of skeletal muscle. During excitation–contraction coupling: depolarization triggers RyR1 to open, releasing stored Ca²⁺ into the cytoplasm; Ca²⁺ binds troponin → actin–myosin cycling → contraction. Channel closure allows Ca²⁺ reuptake and relaxation. RyR1 regulates calcium signaling — it does not form the contractile filaments directly.
 
 **2. What was the exact protein accession and length retrieved with R?**
 - Protein accession: NP_000531.2
 - Length: 5,038 amino acids
 
 **3. What did the amino‑acid composition chart show? What can it NOT tell you?**
-- **Showed:** Leucine (L, 558) is most abundant, followed by Glutamic acid (E, 476) and Alanine (A, 384); high charged/polar residue content matches a large cytoplasmic‑facing ion channel structure (**Figure 2**, **Table 1**).
-- **Cannot tell:** Protein folding, domain arrangement, gating behavior, or variant effect — composition alone does not predict molecular function or disease impact.
+- **Showed:** Leucine (L, 558) is most abundant, followed by Glutamic acid (E, 476) and Alanine (A, 384); high content of charged/polar residues consistent with a large cytoplasmic‑facing ion channel structure (**Figure 2**, **Table 1**).
+- **Cannot tell:** Folding, domain arrangement, gating behavior, or variant effect — composition alone does not predict molecular function or disease impact.
 
 **4. What is your fixed ClinVar variant, and what is its current classification and evidence strength?**
-- Variant: NM_000540.3(RYR1):c.6617C>T p.(Thr2206Met) — ClinVar ID 12977 (**Figure 3**)
-- Classification: **Pathogenic**
-- Evidence strength: Reviewed by ClinGen expert panel (March 2022); located in confirmed MH mutational hotspot; consistent clinical segregation; in silico predictors (SIFT=Damaging, PolyPhen‑2=Probably Damaging)
+- **Variant:** NM_000540.3(RYR1):c.6617C>T p.(Thr2206Met) — ClinVar ID 12977 (**Figure 3**)
+- **Classification:** Pathogenic
+- **Evidence strength:** Reviewed by ClinGen expert panel (March 2022); located in confirmed MH mutational hotspot; consistent clinical segregation; in silico predictors (SIFT=Damaging, PolyPhen‑2=Probably Damaging)
 
 **5. What is the scientifically supported mechanism linking this variant to muscle function, and what remains uncertain?**
-- **Mechanism:** p.Thr2206Met sits in the central cytoplasmic regulatory domain (residues 2163–2458 MH hotspot; **Figure 4**). Polar threonine → larger hydrophobic methionine destabilizes the closed channel state → resting Ca²⁺ leak from the sarcoplasmic reticulum. Under volatile anesthetics, this amplifies → uncontrolled Ca²⁺ release → muscle rigidity, hypermetabolism, hyperthermia (Malignant Hyperthermia crisis).
+- **Mechanism:** p.Thr2206Met sits in the central cytoplasmic regulatory domain (residues 2163–2458 MH hotspot; **Figure 4**). Polar threonine → larger hydrophobic methionine destabilizes the closed channel state, causing resting Ca²⁺ leak from the sarcoplasmic reticulum. Under volatile anesthetics, this amplifies → uncontrolled Ca²⁺ release → muscle rigidity, hypermetabolism, hyperthermia (Malignant Hyperthermia crisis).
 - **Uncertain:** Direct functional measurements specific to T2206M remain limited; whether the variant causes only gain‑of‑function (leak) or also partially impairs normal closure; exact structural interactions at residue 2206 are not fully resolved.
 
 **6. What additional experiment would help test the proposed mechanism?**  
 Express wild‑type and T2206M RyR1 in cells lacking endogenous ryanodine receptors. Use calcium imaging to measure resting cytosolic Ca²⁺ and responses to caffeine/halothane; compare single‑channel activity via patch‑clamp.  
-**Expected:** T2206M channels show higher baseline open probability and exaggerated responses — confirming leaky gating.
+**Expected result:** T2206M channels show higher baseline open probability and exaggerated responses — directly confirming the leaky gating mechanism.
