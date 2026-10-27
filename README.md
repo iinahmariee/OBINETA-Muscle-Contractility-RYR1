@@ -64,8 +64,6 @@ variant_protein = "p.Thr2206Met"
 2. Glutamic acid (E) — 476
 3. Alanine (A) — 384
 
-*Note: Composition alone does not prove protein function or variant effect.*
-
 <img width="2400" height="1500" alt="01_amino_acid_composition" src="https://github.com/user-attachments/assets/ba8a1f86-1115-47ca-82dc-1293be80dbd2" />
 
 **Figure 2.** RYR1 amino‑acid composition showing abundance of charged and large hydrophobic residues consistent with a cytoplasmic ion‑channel structure.
@@ -128,3 +126,6 @@ RYR1 encodes the ryanodine receptor 1, a large homotetrameric calcium‑release 
 **6. What additional experiment would help test the proposed mechanism?**  
 Express wild‑type and T2206M RyR1 in cells lacking endogenous ryanodine receptors. Use calcium imaging to measure resting cytosolic Ca²⁺ and responses to caffeine/halothane; compare single‑channel activity via patch‑clamp.  
 **Expected result:** T2206M channels show higher baseline open probability and exaggerated responses — directly confirming the leaky gating mechanism.
+
+## ClinVar Link:
+https://www.ncbi.nlm.nih.gov/clinvar/variation/12977/ 
