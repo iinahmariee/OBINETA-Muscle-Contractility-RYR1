@@ -127,5 +127,17 @@ RYR1 encodes the ryanodine receptor 1, a large homotetrameric calcium‑release 
 Express wild‑type and T2206M RyR1 in cells lacking endogenous ryanodine receptors. Use calcium imaging to measure resting cytosolic Ca²⁺ and responses to caffeine/halothane; compare single‑channel activity via patch‑clamp.  
 **Expected result:** T2206M channels show higher baseline open probability and exaggerated responses — directly confirming the leaky gating mechanism.
 
-## ClinVar Link:
-https://www.ncbi.nlm.nih.gov/clinvar/variation/12977/ 
+## Discussions 
+The p.Thr2206Met variant in RYR1 is a good example of how a tiny change in a protein can end up mattering for a patient. To understand it properly, though, it helps to keep three kinds of evidence separate: what has been shown in experiments, what has been seen in patients, and what computer programs predict.
+
+On the side changes in the part of the protein known as the central cytoplasmic regulatory domain near residue 2206 seem to make it harder for the channel to stay closed. The result is a steady leak of calcium out of the sarcoplasmic reticulum. In studies using cells channels with this change open often even when calcium is at normal levels and they respond too strongly to triggers such as caffeine or volatile anesthetics. The likely explanation is that swapping a polar threonine for a bulkier hydrophobic methionine disrupts how nearby parts of the protein fit together. This disruption weakens the contacts that normally keep the channel closed. However direct tests of T2206M itself are still limited so part of this picture comes from changes.
+
+Clinically, the link is much clearer. p.Thr2206Met is strongly associated with malignant hyperthermia susceptibility (MHS), a condition where certain anesthetics or muscle relaxants can set off a dangerous, runaway reaction. Most carriers are perfectly fine day to day and only run into trouble during anesthesia. The variant has turned up in several unrelated patients and tracks with the condition within families, which is a big reason it is classified as pathogenic. It isn’t fully penetrant, though, since some carriers never have an episode. It also isn’t tied to ongoing muscle weakness, which sets it apart from the RYR1 variants that cause congenital myopathies.
+
+inally the computer predictions all point the way. SIFT labels the change as damaging PolyPhen-2 labels it as damaging and structural models suggest it breaks the protein’s shape. These tools agree with the lab and clinical findings. On their own they are only predictions, not proof. Taken together the three lines of evidence make a case that T2206M is a functionally important MHS variant. Whether someone actually reacts depends on exposure to triggers and probably, on genetic factors.
+
+
+## References Link:
+ClinVar: https://www.ncbi.nlm.nih.gov/clinvar/variation/12977/ 
+NCBI Gene: https://www.ncbi.nlm.nih.gov/gene/6261
+NCBI Protein: https://www.ncbi.nlm.nih.gov/protein/NP_000531.2
