@@ -27,6 +27,7 @@ Chromosome: 19q13.2
 
 ## Step 3 — Protein Sequence
 NP accession: NP_000531.2
+
 Fasta file: https://github.com/iinahmariee/OBINETA-Muscle-Contractility-RYR1/blob/GROUP-4/data/RYR1%20Protein 
 
 ## Step 4 — Amino‑Acid Composition
