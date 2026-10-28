@@ -120,7 +120,7 @@ RYR1 encodes the ryanodine receptor 1, a large homotetrameric calcium‑release 
 - **Evidence strength:** Reviewed by ClinGen expert panel (March 2022); located in confirmed MH mutational hotspot; consistent clinical segregation; in silico predictors (SIFT=Damaging, PolyPhen‑2=Probably Damaging)
 
 **5. What is the scientifically supported mechanism linking this variant to muscle function, and what remains uncertain?**
-- **Mechanism:** p.Thr2206Met sits in the central cytoplasmic regulatory domain (residues 2163–2458 MH hotspot; **Figure 4**). Polar threonine → larger hydrophobic methionine destabilizes the closed channel state, causing resting Ca²⁺ leak from the sarcoplasmic reticulum. Under volatile anesthetics, this amplifies → uncontrolled Ca²⁺ release → muscle rigidity, hypermetabolism, hyperthermia (Malignant Hyperthermia crisis).
+- **Mechanism:** p.Thr2206Met sits in the central cytoplasmic regulatory domain (residues 2163–2458 MH hotspo). Polar threonine → larger hydrophobic methionine destabilizes the closed channel state, causing resting Ca²⁺ leak from the sarcoplasmic reticulum. Under volatile anesthetics, this amplifies → uncontrolled Ca²⁺ release → muscle rigidity, hypermetabolism, hyperthermia (Malignant Hyperthermia crisis).
 - **Uncertain:** Direct functional measurements specific to T2206M remain limited; whether the variant causes only gain‑of‑function (leak) or also partially impairs normal closure; exact structural interactions at residue 2206 are not fully resolved.
 
 **6. What additional experiment would help test the proposed mechanism?**  
